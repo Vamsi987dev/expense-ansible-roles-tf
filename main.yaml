@@ -1,0 +1,9 @@
+
+
+- name: backend configuration
+  hosts: all
+  become: yes
+  var_files:
+  - "variables-{{ environment }}.yaml"
+  roles:
+  - "{{ component}}"
