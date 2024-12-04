@@ -1,4 +1,4 @@
-BACKEND_HOST: backend.app-devdaws81s.icu
+BACKEND_HOST: backend.app-dev.daws81s.icu
 
 app_location: /usr/share/nginx/html
 component: frontend
